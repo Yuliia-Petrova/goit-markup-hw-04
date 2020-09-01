@@ -128,7 +128,8 @@ p {
   fill: #757575;
 }
 
-.contact-link:hover svg {
+.contact-link:hover svg,
+.contact-link:focus svg {
   fill: var(--accent-color);
 }
 
@@ -355,9 +356,12 @@ p {
 }
 
 .social-links-svg:hover,
-.join-svg:hover {
+.social-links-svg:focus,
+.join-svg:hover,
+.join-svg:focus {
   fill: var(--additional-color);
 }
+
 /* Our clients */
 
 .clients-section {
