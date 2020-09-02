@@ -109,10 +109,6 @@ p {
   margin-right: 50px;
 }
 
-.contacts-item:hover {
-  color: var(--accent-color);
-}
-
 .contact-link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -126,6 +122,11 @@ p {
 .tel-svg {
   margin-right: 10px;
   fill: #757575;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
 }
 
 .contact-link:hover svg,
@@ -350,17 +351,21 @@ p {
   background-color: var(--accent-color);
 }
 
+.social-link:hover svg {
+  fill: var(--additional-color);
+}
+
 .social-links-svg,
 .join-svg {
   fill: #afb1b8;
 }
 
-.social-links-svg:hover,
+/* .social-links-svg:hover,
 .social-links-svg:focus,
 .join-svg:hover,
 .join-svg:focus {
   fill: var(--additional-color);
-}
+} */
 
 /* Our clients */
 
@@ -481,6 +486,10 @@ footer .container {
 
 .join-link:hover {
   background-color: var(--accent-color);
+}
+
+.join-link:hover svg {
+  fill: var(--additional-color);
 }
 
 .join-text {
