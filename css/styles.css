@@ -147,10 +147,14 @@ p {
 }
 
 .hero-container {
-  max-width: 1600px;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 200px;
+}
+
+.hero {
+  background-color: var(--bg-color);
+  text-align: center;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -162,12 +166,8 @@ p {
   background-position: center;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 200px;
-}
-
-.hero {
-  background-color: var(--bg-color);
-  text-align: center;
+  max-width: 1600px;
+  height: 600px;
 }
 
 .hero-link {
